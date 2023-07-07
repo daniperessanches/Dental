@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500;900&family=Archivo+Black&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+
+.cabecalho{
+    box-sizing: border-box;
+    margin: 2% 5%;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    align-items: center;
+}
+.cabecalho__contato{
+    padding: 10px 15px;
+    background-color: black;
+    color:#FFFFFF;
+    border-radius: 158px;
+}
+.conteudo{
+    height: 100vh;
+    background-color: #0569C6;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.conteudo__bloco{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 50px;
+    margin: 5%;
+   
+}
+.conteudo__bloco__titulo{
+    color: #FFFDFD;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+}
+.conteudo__bloco__paragrafo{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: medium;
+    font-size: 36px;
+    color: #FEF4F4
+
+}
+.conteudo__bloco__horario{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    padding: 5px 5px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+.contudo__imagem{
+   
+    border-radius: 100px;
+    margin: 0 5%;
+    height: 50vh;
+    margin:5%
+
+}
+footer{
+    background-color: #0569C6;
+}
